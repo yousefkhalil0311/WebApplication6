@@ -8,11 +8,27 @@
     <title>UIT commander</title>
     <link rel="stylesheet" href="/css/site.css"/>
     <script src="/js/jsconfig.js"></script>
+    <meta charset="utf-8"/>
+    <meta name="author" content="Yousef Khalil" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="Command site for User interface terminal" />
+    <meta http-equiv="refresh" content="60" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
     <h1>Click the button below</h1>
-
+    <div class="square"></div>
     <button onclick="document.getElementById('task').innerHTML = poi()">Display the number 4</button>
     <p id="task">what shows here</p>
+    <button onclick="document.getElementById('goat').innerHTML = b.fullname()">Click for goaty</button>
+    <p id="goat">Hes here</p>
+    <input type="text" id="text" value="" />
+    <button onclick="document.getElementById('r').innerHTML = subby()">submit</button>
+    <script>
+        function subby() {
+            return document.getElementById('text').value;
+        }
+    </script>
+    <p id="r"></p>
 </body>
 </html>

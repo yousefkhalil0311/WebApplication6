@@ -1,4 +1,5 @@
 ﻿body {
+    
 }
 
 table, th, td{
@@ -8,4 +9,10 @@ table, th, td{
 
 th, td{
     padding: 5px;
+}
+
+.square{
+    height: 50px;
+    width: 50px;
+    background-color: black;
 }
