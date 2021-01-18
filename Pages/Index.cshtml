@@ -4,79 +4,15 @@
 }
 
 <html>
-
 <head>
-    <title>UIT-Terminal</title>
+    <title>UIT commander</title>
+    <link rel="stylesheet" href="/css/site.css"/>
+    <script src="/js/jsconfig.js"></script>
 </head>
-
 <body>
-    <form>
-        <h1>Test 1:</h1>
-        <h2>This will demo the <strong>check boxes</strong>.</h2>
-        <input type="checkbox" name="Check" value="1" />
-        <br />
-        <input type="checkbox" name="Check" value="2" />
-        <br />
-        <input type="checkbox" name="Check" value="3" />
-        <br />
-        <h2>This will test the <strong>radio buttons</strong>.</h2>
-        <p>One at a time.</p>
-        <input type="radio" name="radio1" value="1" checked />
-        <br />
-        <input type="radio" name="radio1" value="2" />
-        <br />
-        <input type="radio" name="radio1" value="3" />
-        <br />
-        <p>This will show 2 sets, each independent.</p>
-        <input type="radio" name="radio2_1" value="1" checked />
-        <input type="radio" name="radio2_1" value="2" />
-        <input type="radio" name="radio2_1" value="3" />
-        <br />
-        <input type="radio" name="radio2_2" value="1" checked />
-        <input type="radio" name="radio2_2" value="2" />
-        <input type="radio" name="radio2_2" value="3" />
-        <h2>Pull down menu</h2>
-        <select name="select"></select>
-        <h2>text input</h2>
-        <input type="text" name=text size=10 />
-        <h2>submit button</h2>
-        <input type="submit" value="submit?" />
-        <h2>image submit</h2>
-        <input type="image" name="should you submit" src="https://cdn.britannica.com/14/183614-050-6D27ED8D/World-Data-Locator-Map-Chile.jpg" border="10" alt="submitty" width="100" height="100" />
-        <h2>reset button</h2>
-        <input type="reset" />
-    </form>
-    <table style="width:100%">
-        <tr>
-            <th colspan="2">.jh   kjkj Input     .</th>
-            <th>Output</th>
-        </tr>
-        <tr>
-            <th>a</th>
-            <th>b</th>
-            <th>y</th>
-        </tr>
-        <tr>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <td>0</td>
-            <td>1</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>0</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-        </tr>
-    </table>
-</body>
+    <h1>Click the button below</h1>
 
+    <button onclick="document.getElementById('task').innerHTML = poi()">Display the number 4</button>
+    <p id="task">what shows here</p>
+</body>
 </html>
