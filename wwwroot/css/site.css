@@ -1,5 +1,5 @@
 ﻿body {
-    
+    background-color: aqua;
 }
 
 table, th, td{
@@ -12,7 +12,7 @@ th, td{
 }
 
 .square{
-    height: 50px;
+    height: 50px; 
     width: 50px;
     background-color: black;
 }
