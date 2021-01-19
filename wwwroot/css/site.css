@@ -1,18 +1,27 @@
-﻿body {
-    background-color: aquamarine;
+﻿body{
+    
 }
 
-table, th, td{
-    border: 1px solid black;
-    border-collapse: collapse;
+div.a {
+    margin: 15% auto 25% auto;
+    text-align: center;
+    width: 25%;
+    border-radius: 10%;
+    border: 10px solid aqua;
+    padding: 16px;
 }
 
-th, td{
-    padding: 5px;
+
+div.text {
+    padding: 16px;
+    display: block;
 }
 
-.square{
-    height: 50px; 
-    width: 50px;
-    background-color: black;
+input{
+    width: 100%;
+    margin: 4% auto 4% auto;
+}
+
+button{
+
 }

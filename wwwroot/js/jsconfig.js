@@ -1,14 +1,10 @@
+var username = 'Yousef';
+var password = 'password';
 
-var a = 0;
-function poi(){
-    a = a + 1;
-    return 'this works' + a;
-}
-
-var b = {
-    firstname: "Orange",
-    lastname: "McGoat",
-    fullname: function () {
-        return this.firstname + this.lastname;
+function verify(x, y) {
+    if (x == username && y == password) {
+        return 'Verification Successful';
+    } else {
+        return 'Failed Verification';
     }
 }

@@ -3,17 +3,15 @@
 @{
 }
 
-<h1>Click the button below</h1>
-<div class="square"></div>
-<button onclick="document.getElementById('task').innerHTML = poi()">Display the number 4</button>
-<p id="task">what shows here</p>
-<button onclick="document.getElementById('goat').innerHTML = b.fullname()">Click for goaty</button>
-<p id="goat">Hes here</p>
-<input type="text" id="text" value="" />
-<button onclick="document.getElementById('r').innerHTML = subby()">submit</button>
-<script>
-    function subby() {
-        return document.getElementById('text').value;
-    }
-</script>
-<p id="r"></p>
+<div class="a">
+    Hello, welcome back.
+    <div class="text">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" name="uname" placeholder="Enter username" value="" required />
+        <label for="psw"><b>Password</b></label>
+        <input type="password" name="psw" placeholder="Enter password" value="" required />
+        <button type="button" onclick="document.getElementById('authenticate').innerHTML = verify(document.getElementsByName('uname')[0].value, document.getElementsByName('psw')[0].value)">Submit</button>
+        <p id="authenticate"></p>
+    </div>
+</div>
+
