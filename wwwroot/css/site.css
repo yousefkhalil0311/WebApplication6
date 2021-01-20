@@ -1,16 +1,24 @@
-﻿body{
-    
+﻿body {
+    background-color: azure;
+    background-image: url('https://www.estidia.eu/wp-content/uploads/2018/04/Savin-NY-Website-Background-Web.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 div.a {
-    margin: 15% auto 25% auto;
+    margin: 5% auto 25% auto;
     text-align: center;
     width: 25%;
     border-radius: 10%;
     border: 10px solid aqua;
     padding: 16px;
 }
-
+div.b{
+    margin: 5% auto 5% auto;
+    text-align: center;
+    font-size: 150px;
+}
 
 div.text {
     padding: 16px;
@@ -23,5 +31,11 @@ input{
 }
 
 button{
-    background-color: greenyellow;
+    background-color: lawngreen;
+    width: 25%;
+    border-radius: 10%;
+}
+
+button:hover{
+    background-color: lightgreen;
 }
