@@ -1,4 +1,9 @@
-﻿body {
+﻿
+div.p1-a, div.p1-b{
+    display: block;
+}
+
+body {
     background-color: azure;
     background-image: url('https://www.estidia.eu/wp-content/uploads/2018/04/Savin-NY-Website-Background-Web.jpg');
     background-repeat: no-repeat;
@@ -6,15 +11,17 @@
     background-attachment: fixed;
 }
 
-div.a {
+div{
+    p1-a{
     margin: 5% auto 25% auto;
     text-align: center;
     width: 25%;
     border-radius: 10%;
     border: 10px solid aqua;
     padding: 16px;
+    }
 }
-div.b{
+div.p1-b{
     margin: 5% auto 5% auto;
     text-align: center;
     font-size: 150px;
